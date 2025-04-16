@@ -490,6 +490,10 @@ PODS:
   - RNGestureHandler (2.16.2):
     - RCT-Folly (= 2021.07.22.00)
     - React-Core
+  - RNReanimated (3.8.1):
+    - RCT-Folly (= 2021.07.22.00)
+    - React-Core
+    - ReactCommon/turbomodule/core
   - RNScreens (4.0.0):
     - RCT-Folly (= 2021.07.22.00)
     - React-Core
@@ -564,6 +568,7 @@ DEPENDENCIES:
   - React-utils (from `../node_modules/react-native/ReactCommon/react/utils`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
+  - RNReanimated (from `../node_modules/react-native-reanimated`)
   - RNScreens (from `../node_modules/react-native-screens`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
@@ -666,6 +671,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon"
   RNGestureHandler:
     :path: "../node_modules/react-native-gesture-handler"
+  RNReanimated:
+    :path: "../node_modules/react-native-reanimated"
   RNScreens:
     :path: "../node_modules/react-native-screens"
   Yoga:
@@ -724,6 +731,7 @@ SPEC CHECKSUMS:
   React-utils: ee4e6bf16d6882500500d517d36f9035874c5f6a
   ReactCommon: 2060ee7b68e71d23849968f6406550ba2df71bdb
   RNGestureHandler: 5ae428abcc1bf7d89b42ee17a1d5a53e38de7acd
+  RNReanimated: e85473000000298d6e2a23a191a3a3d9ef3cd3ee
   RNScreens: 750015d6d73775ec317dd96ae1321932b60f231d
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
   Yoga: b76f1acfda8212aa16b7e26bcce3983230c82603
