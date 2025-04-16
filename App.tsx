@@ -1,11 +1,12 @@
+import {NavigationContainer} from '@react-navigation/native';
 import React from 'react';
-import {Text, View} from 'react-native';
+import AuthStackNavigator from './src/navigation/AuthStackNavigator';
 
 const App = () => {
   return (
-    <View>
-      <Text>Hello World!!!</Text>
-    </View>
+    <NavigationContainer>
+      <AuthStackNavigator />
+    </NavigationContainer>
   );
 };
 
