@@ -6,7 +6,7 @@ import {AuthStackParamList} from '../navigations/stack/AuthStackNavigator';
 
 type AuthHomeScreenProps = StackScreenProps<
   AuthStackParamList,
-  typeof authNavigations.AUTH_HOME
+  typeof authNavigations.AUTH_HOME | typeof authNavigations.SIGNUP
 >;
 
 const AuthHomeScreen = ({navigation}: AuthHomeScreenProps) => {
@@ -16,6 +16,10 @@ const AuthHomeScreen = ({navigation}: AuthHomeScreenProps) => {
       <Button
         title="로그인 화면으로 이동"
         onPress={() => navigation.navigate(authNavigations.LOGIN)}
+      />
+      <Button
+        title="회원가입 화면으로 이동"
+        onPress={() => navigation.navigate(authNavigations.SIGNUP)}
       />
     </SafeAreaView>
   );
